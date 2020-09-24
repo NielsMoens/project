@@ -35,41 +35,41 @@
 //     { name: "Jeremy", email: "jeremy@example.com" },
 //     { name: "Jacob", email: "jacob@example.com" }
 //   ]
-  
+
 //   let [,,{name:thu}] = users;
 //   console.log(thu);
 
-// Destructing #6 spread operator 
-const { name, email, ...rest } = { name: "John", email: "john@example.com", city: "Phoenix", state: "AZ", country: "USA"}
-console.log(rest); // should output {city: "Phoenix", state: "AZ", country: "USA"}
+// // Destructing #6 spread operator 
+// const { name, email, ...rest } = { name: "John", email: "john@example.com", city: "Phoenix", state: "AZ", country: "USA"}
+// console.log(rest); // should output {city: "Phoenix", state: "AZ", country: "USA"}
 
-// Destructing #7
-const arr = [1, 2, 3, 4, 5, 6]
-const [a,b];
+// // Destructing #7
+// const arr = [1, 2, 3, 4, 5, 6]
+// const [a,b];
 
-console.log(a) // outputs 1
-console.log(b) // outputs 2
+// console.log(a) // outputs 1
+// console.log(b) // outputs 2
 
-// Destructing #8
-const arr = ["cars", "planes", ["trains", ["motorcycles"]]]
-const [trans1, trans2,[trans3, [trans4]]];
-let trans1 = arr[0]
-let trans2 = arr[1]
-let trans3 = arr[2][0]
-let trans4 = arr[2][1][0]
+// // Destructing #8
+// const arr = ["cars", "planes", ["trains", ["motorcycles"]]]
+// const [trans1, trans2,[trans3, [trans4]]];
+// let trans1 = arr[0]
+// let trans2 = arr[1]
+// let trans3 = arr[2][0]
+// let trans4 = arr[2][1][0]
 
-console.log(trans1) // outputs "cars"
-console.log(trans2) // outputs "planes"
-console.log(trans3) // outputs "trains"
-console.log(trans4) // outputs "motorcycles"
+// console.log(trans1) // outputs "cars"
+// console.log(trans2) // outputs "planes"
+// console.log(trans3) // outputs "trains"
+// console.log(trans4) // outputs "motorcycles"
 
 
-// Destructing #9
-const arr = ["eyes", "nose", "lips", "ears"]
-let [,,lips,]= arr;
-console.log(lips);
+// // Destructing #9
+// const arr = ["eyes", "nose", "lips", "ears"]
+// let [,,lips,]= arr;
+// console.log(lips);
 
-// Destructing #10
-var [head, ...tail] = [1, 2, 3, 4]
-console.log(head) // outputs  1
-console.log(tail) // outputs 2
+// // Destructing #10
+// var [head, ...tail] = [1, 2, 3, 4]
+// console.log(head) // outputs  1
+// console.log(tail) // outputs 2
